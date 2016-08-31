@@ -12,91 +12,210 @@
 </head>
 <body>
 <header class="header">
-    <nav class="navbar header_navbar navbar-fixed-top">
-        <div class="container">
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar__button" data-toggle="collapse" data-target="#myNavbar">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#myPage">Santechnik</a>
+                <a class="navbar-brand" href="#">Switch</a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#myPage">HOME</a></li>
-                    <li><a href="#band">ABOUT US</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-
-                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">What we do?</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Contact us</a></li>
                 </ul>
+
+                <form class="navbar-form navbar-right">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search...">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Go!</button>
+                          </span>
+                    </div><!-- /input-group -->
+
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+</header><!--header-->
+<main>
+    <div class="switch__art">
+        <div class="container text-center">
+            <h1 class="switch__art-text container text-center">Art is Eternal Happiness</h1>
+            <button type="button" class="btn switch__button">WORK WITH US</button>
+            <button type="button" class="btn switch__scroll-down">scroll down</button>
+        </div>
+    </div>
+    <div class="switch__what-we-do">
+        <div class="container text-center">
+            <h2 class="switch__name">WHAT WE DO</h2>
+            <p class="switch__content">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <img src="http://placehold.it/142x142" class="img-rounded" alt="Random Name">
+                    <h3>Lorem Ipsum</h3>
+                    <p>his is Photoshop's version  of Lorem Ipsum.
+                        Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor,</p>
+                    <button type="button" class="btn switch__what-we-do-button">Learn more</button>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img src="http://placehold.it/142x142" class="img-rounded" alt="Random Name" >
+                    <h3>Lorem Ipsum</h3>
+                    <p>his is Photoshop's version  of Lorem Ipsum.
+                        Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor,</p>
+                    <button type="button" class="btn switch__what-we-do-button">Learn more</button>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img src="http://placehold.it/142x142" class="img-rounded" alt="Random Name">
+                    <h3>Lorem Ipsum</h3>
+                    <p>his is Photoshop's version  of Lorem Ipsum.
+                        Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor,</p>
+                    <button type="button" class="btn switch__what-we-do-button">Learn more</button>
+                </div>
             </div>
         </div>
-    </nav>
-</header>
-<main>
-
-<!--        <div class="col-sm-2">
-            <div class="btn-group-vertical">
-                <button type="button" class="btn button">laufen</button>
-                <button type="button" class="btn button">artCeram</button>
-                <button type="button" class="btn button">viega</button>
-                <button type="button" class="btn button">roltechnik</button>
-                <button type="button" class="btn button">roca</button>
-                <button type="button" class="btn button">ravak</button>
-                <button type="button" class="btn button">kaldewei</button>
+    </div>
+    <div class="switch__latest-work">
+        <div class="container text-center">
+            <h2 class="switch__name">OUR LATEST WORK</h2>
+            <p class="switch__content">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+            <div class="btn-group button-group" role="group" aria-label="...">
+                <button type="button" class="btn switch__buttton-group">Photography</button>
+                <button type="button" class="btn switch__buttton-group">Design</button>
+                <button type="button" class="btn switch__buttton-group ">Print</button>
             </div>
-        </div>-->
-
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="img/roca.jpeg" alt="New York" >
-                    <div class="carousel-caption">
-                        <h3>roca</h3>
-                        <p>The atmosphere in New York is lorem ipsum.</p>
+            <div class="row">
+                <div class="col-md-12 col-sm-6">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                </div>
+                <div class="col-md-12 col-sm-6">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                </div>
+            </div>
+            <button type="button" class="btn switch__view-more-button">View more work</button>
+        </div>
+    </div>
+    <div class="switch__testimonials">
+        <div class="container text-center">
+            <h2 class="switch__name">TESTIMONIALS</h2>
+            <p class="switch__content">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+            <div id="carousel-generic" class="carousel slide switch_slider" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item container text-center active switch__slider-text">
+                        <p>“Awalnya saya tidak menderita penyakit apapun,namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakantidak menderita penyakit apapun!”</p>
+                        <img src="..." alt="...">
                     </div>
+                    <div class="item container text-center switch__slider-text">
+                        <p >“Awalnya saya tidak menderita penyakit apapun,namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakantidak menderita penyakit apapun!”</p>
+                        <img src="..." alt="...">
+                    </div>
+                    ...
                 </div>
 
-                <div class="item">
-                    <img src="img/kaldewei.jpg" alt="Chicago" >
-                    <div class="carousel-caption">
-                        <h3>kaldewei</h3>
-                        <p>Thank you, Chicago - A night we won't forget.</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="img/ravak.jpg" alt="Los Angeles" >
-                    <div class="carousel-caption">
-                        <h3>ravak</h3>
-                        <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
-                    </div>
-                </div>
-
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-generic" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
         </div>
-
-</main>
-
-
+    </div>
+    <div class="switch__happy-client">
+        <div class="container text-center">
+            <h2 class="switch__name">OUR HAPPY CLIENT</h2>
+            <p class="switch__content">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+            <div class="row">
+                <div class="col-md-12 col-sm-6">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                  </div>
+                <div class="col-md-12 col-sm-6">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                    <img src="http://placehold.it/160x160" class="img-rounded switch__latest-work-img" alt="Random Name">
+                </div>
+            </div>
+            <button type="button" class="btn switch__client-button">See all client</button>
+        </div>
+    </div>
+    <div class="switch__team">
+        <div class="container text-center">
+            <h2 class="switch__name">MEET THE TEAM</h2>
+            <p class="switch__content">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="http://placehold.it/125x125" class="img-circle person" alt="Random Name">
+                    <p class="text-center"><strong>Name</strong></p><br>
+                </div>
+                <div class="col-md-2">
+                    <img src="http://placehold.it/125x125" class="img-circle person" alt="Random Name">
+                    <p class="text-center"><strong>Name</strong></p><br>
+                </div>
+                <div class="col-md-2">
+                    <img src="http://placehold.it/125x125" class="img-circle person" alt="Random Name">
+                    <p class="text-center"><strong>Name</strong></p><br>
+                </div>
+                <div class="col-md-2">
+                    <img src="http://placehold.it/125x125" class="img-circle person" alt="Random Name">
+                    <p class="text-center"><strong>Name</strong></p><br>
+                </div>
+                <div class="col-md-2">
+                    <img src="http://placehold.it/125x125" class="img-circle person" alt="Random Name">
+                    <p class="text-center"><strong>Name</strong></p><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center switch__work-with-us ">
+        <button type="button" class=" btn  switch__work-with-us-button">WORK WITH US</button>
+    </div>
+</main><!--main-->
+<footer>
+    <div class="footer__information">
+        <div class="container text-center">
+            <div class="col-md-4">
+                <h3 class="switch__content">ABOUT US</h3>
+                <p class="switch__content">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Ut aliquam massa nisl quis neque. Suspendisse in orci enim.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+            </div>
+            <div class="col-md-4">
+                <h3  class="switch__content">RECENT POSTS</h3>
+            </div>
+            <div class="col-md-4">
+                <h3  class="switch__content">CONTACT US</h3>
+                <p></p>
+                <form></form>
+            </div>
+        </div>
+        <div class="Footer__logo"></div>
+        <div class="Footer__made-with"></div>
+    </div>
+</footer><!--footer-->
 </body>
 </html>

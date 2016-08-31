@@ -1,39 +1,108 @@
-body {
-    background-color: rgba(238, 238, 238, 0.38);
+.switch__art{
+    background-color: #cccccc;
+    margin: 0;
+    height: 660px;
 }
-.header{
-    background-color: black;
+.switch__art-text{
+    color: #ffffff;
+    font-size: 55px;
+    padding-top: 278px;
+    padding-bottom: 30px;
 }
-.header_navbar {
-    background-color: currentColor;
+.switch__button{
+    background-color: #54d154;
+    border-radius: 20px;
+    color: #ffffff;
 }
-.navbar__button{
-    position: relative;
-    float: right;
-    padding: 9px 10px;
-    margin-top: 8px;
-    margin-right: 15px;
-    margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-    border-radius: 4px;
-    border: 1px solid #337AB7;
+.switch__scroll-down {
+
 }
-.button {
-    width: 100%;
+.switch__what-we-do {
+    color: #828181;
 }
-.carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); /* make all photos black and white */
-    width: 100%; /* Set width to 100% */
-    margin: auto;
-    height: 500px !important;
+
+.switch__name {
+    font-size: 20px;
+    color: #828181;
+    margin-top: 40px;
 }
-.carousel-caption h3 {
-    color: #fff !important;
+.switch__content{
+    color: #b7b3b3;
+    margin-bottom: 70px;
 }
-@media (max-width: 600px) {
-    .carousel-caption {
-        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
+h3 {
+    font-weight: bold;
+}
+
+.switch__what-we-do-button {
+    background-color: #54d154;
+    color: #ffffff;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    margin-bottom: 75px;
+}
+.switch__latest-work {
+    background-color: #54d154;
+}
+.button-group{
+    margin: 0 0 57px 0;
+}
+.switch__buttton-group {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #2b9b2b;
+    color: #2b9b2b;
+}
+.switch__buttton-group:focus {
+    background-color: #2b9b2b;
+    color: #ffffff;
+    outline: none;
+}
+.switch__buttton-group:hover {
+    outline: none;
+    background-color: #2b9b2b;
+    color: #ffffff;
+}
+.switch__latest-work-img {
+    margin: 30px;
+}
+.switch__view-more-button{
+    background-color: #2b9b2b;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    margin: 35px 0 55px 0;
+}
+.switch_slider{
+    margin: 70px 0 63px 0;
+}
+.switch__slider-text {
+    width: 460px;
+}
+.switch__happy-client{
+    background-color: #f2f1f1;
+}
+.switch__client-button{
+    background-color: #dddcdc;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    margin: 60px 0 60px 0;
+    color: #ffffff;
+}
+.switch__team{
+    background-color: #2b9b2b;
+}
+.switch__work-with-us {
+    background-color: #3eba3e;
+}
+.switch__work-with-us-button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: #54d154;
+    margin: 23px;
+    color: #ffffff;
+}
+.footer__information{
+    background-color: #333333;
 }
