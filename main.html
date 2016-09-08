@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="main.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -33,7 +32,7 @@
                 </ul>
                 <a class="navbar-brand navbar-brand-right" href="#">Switch</a>
 
-                <form class="navbar-form navbar-right">
+                <form class="navbar-form navbar-right form-input-search">
                     <div class="input-group navbar_input-group">
                         <input type="text" class="form-control header-search" placeholder="Search...">
                           <span class="input-group-btn">
@@ -50,11 +49,13 @@
 <!--MAIN BLOCK-->
 <section class="switch__art" id="home_page">
     <div class="container text-center">
-        <h1 class="switch__art-text container text-center">Art is Eternal Happiness</h1>
-        <button type="button" class="btn switch__button">WORK WITH US</button>
+        <div class="switch__art-center-container">
+            <h1 class="switch__art-text container text-center">Art is Eternal Happiness</h1>
+            <button type="button" class="btn switch__button">WORK WITH US</button>
+        </div>
         <button type="button" class="btn switch__scroll-down">
             scroll down
-            <span class="glyphicon glyphicon-arrow-down"></span>
+            <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
         </button>
     </div>
 </section>
@@ -66,9 +67,9 @@
         <p class="switch__content">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
         <div class="row">
             <div class="col-sm-4 text-center">
-                <a href="#" class="thumbnail what-we-do_block-icon">
+                <span href="#" class="thumbnail what-we-do_block-icon">
                     <i class="fa fa-camera-retro fa-5x what-we-do__icon"></i>
-                </a>
+                </span>
                 <h3>Lorem Ipsum</h3>
                 <p>his is Photoshop's version  of Lorem Ipsum.
                     Proin gravida nibh vel velit auctor aliquet.
@@ -76,9 +77,9 @@
                 <button type="button" class="btn switch__what-we-do-button">Learn more</button>
             </div>
             <div class="col-sm-4 text-center">
-                <a href="#" class="thumbnail what-we-do_block-icon">
+                <span href="#" class="thumbnail what-we-do_block-icon">
                     <i class="fa fa-tachometer fa-5x what-we-do__icon"></i>
-                </a>
+                </span>
                 <h3>Lorem Ipsum</h3>
                 <p>his is Photoshop's version  of Lorem Ipsum.
                     Proin gravida nibh vel velit auctor aliquet.
@@ -86,9 +87,9 @@
                 <button type="button" class="btn switch__what-we-do-button">Learn more</button>
             </div>
             <div class="col-sm-4 text-center">
-                <a href="#" class="thumbnail what-we-do_block-icon">
+                <span href="#" class="thumbnail what-we-do_block-icon">
                     <i class="fa fa-briefcase fa-5x what-we-do__icon"></i>
-                </a>
+                </span>
                 <h3>Lorem Ipsum</h3>
                 <p>his is Photoshop's version  of Lorem Ipsum.
                     Proin gravida nibh vel velit auctor aliquet.
@@ -104,7 +105,7 @@
         <h2 class="switch__name-green">OUR LATEST WORK</h2>
         <p class="switch__content-green">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
         <div class="btn-group tab-button-group" role="group" aria-label="...">
-            <ul class="nav nav-tabs" role="tablist">
+            <ul class="nav nav-tabs " role="tablist">
                 <li role="presentation" class="active">
                     <a class="btn switch__button-group group-left" href="#photography" aria-controls="photography" role="tab" data-toggle="tab">
                         Photography
@@ -124,35 +125,35 @@
         </div>
         <div class="tab-content">
             <div class="row tab-pane active" role="tabpanel" id="photography" >
-                <div class="col-md-2 col-sm-6 col-md-offset-1">
-                    <img src="img/forech.png"  class="switch__latest-work-img" alt="">
+                <div class="col-md-2 col-sm-4 col-xs-6 col-md-offset-1">
+                    <img src="img/image1.png"  class="switch__latest-work-img img-responsive" alt="">
                 </div>
-                <div class="col-md-2 col-sm-6">
-                    <img src="img/cake.png"  class="switch__latest-work-img" alt="">
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <img src="img/image2.png"  class="switch__latest-work-img img-responsive" alt="">
                 </div>
-                <div class="col-md-2 col-sm-6">
-                    <img src="img/lamp.png"  class="switch__latest-work-img" alt="">
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <img src="img/image3.png"  class="switch__latest-work-img img-responsive" alt="">
                 </div>
-                <div class="col-md-2 col-sm-6">
-                    <img src="img/ledy-bug.png"  class="switch__latest-work-img" alt="">
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <img src="img/image4.png"  class="switch__latest-work-img img-responsive" alt="">
                 </div>
-                <div class="col-md-2 col-sm-6">
-                    <img src="img/image.png"   class="switch__latest-work-img" alt="">
+                <div class="col-md-2 col-sm-4 col-xs-6 ">
+                    <img src="img/image5.png"   class="switch__latest-work-img img-responsive" alt="">
                 </div>
-                <div class="col-md-2 col-sm-6 col-md-offset-1">
-                    <img src="img/nail.png"  class="switch__latest-work-img" alt="">
+                <div class="col-md-2 col-sm-4 col-xs-6 col-md-offset-1">
+                    <img src="img/image6.png"  class="switch__latest-work-img img-responsive" alt="">
                 </div>
-                <div class="col-md-2 col-sm-6">
-                    <img src="img/nail.png"  class="switch__latest-work-img" alt="">
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <img src="img/image7.png"  class="switch__latest-work-img img-responsive" alt="">
                 </div>
-                <div class="col-md-2 col-sm-6">
-                    <img src="img/cat.png"  class="switch__latest-work-img" alt="">
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <img src="img/image8.png"  class="switch__latest-work-img img-responsive" alt="">
                 </div>
-                <div class="col-md-2 col-sm-6">
-                    <img src="img/cat.png"   class="switch__latest-work-img" alt="">
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <img src="img/image9.png"   class="switch__latest-work-img img-responsive" alt="">
                 </div>
-                <div class="col-md-2 col-sm-6">
-                    <img src="img/cake.png" class="switch__latest-work-img" alt="">
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <img src="img/image10.png" class="switch__latest-work-img img-responsive" alt="">
                 </div>
             </div>
             <div role="tabpanel" class="tab-pane" id ="design">
@@ -162,7 +163,9 @@
                 content2
             </div>
         </div>
-        <button type="button" class="btn switch__view-more-button">View more work</button>
+        <button type="button" class="btn switch__view-more-button">View more work
+            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+        </button>
     </div>
 </section>
 <!--BLOCK WITH TESTIMONIALS-->
@@ -175,36 +178,39 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
 
-                <div class="item container text-center active">
+                <div class="item active">
                     <div class="switch__slider-text">
                         <p>“Awalnya saya tidak menderita penyakit apapun,namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakantidak menderita penyakit apapun!”</p>
-                        <div class="media ">
-                            <span class="media-left " href="#">
-                                <img src="img/herpy.png" alt="">
-                            </span>
-                            <div class="media-body text-center">
-                                <p class="footer__content">Mr.Herp</p>
-                                <p>CEO of Meme, Inc.</p>
+                        <div class="media">
+                            <div class="media__block">
+                                <span class="media-left " href="#">
+                                    <img src="img/herpy.png" alt="">
+                                </span>
+                                <div class="media-body text-left">
+                                    <p class="media-content">Mr.Herp</p>
+                                    <p class="footer__content">CEO of Meme, Inc.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="item container text-center">
+                <div class="item">
                     <div class="switch__slider-text">
                         <p>“Awalnya saya tidak menderita penyakit apapun,namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakantidak menderita penyakit apapun!”</p>
                         <div class="media ">
-                            <span class="media-left " href="#">
-                                <img src="img/herpy.png" alt="">
-                            </span>
-                            <div class="media-body text-center">
-                                <p class="footer__content">Mr.Herp</p>
-                                <p>CEO of Meme, Inc.</p>
+                            <div class="media__block">
+                                <span class="media-left " href="#">
+                                    <img src="img/herpy.png" alt="">
+                                </span>
+                                <div class="media-body text-left">
+                                    <p class="media-content">Mr.Herp</p>
+                                    <p class="footer__content">CEO of Meme, Inc.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
 
             <!-- Controls -->
             <a class="left carousel-control" href="#carousel-generic" role="button" data-slide="prev">
@@ -223,35 +229,39 @@
     <div class="container text-center">
         <h2 class="switch__name">OUR HAPPY CLIENT</h2>
         <p class="switch__content">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
-        <div class="row">
-            <div class="col-md-3 col-sm-6 happy-client-icon">
-                <img src="img/google.png"  alt="google">
+        <div class="switch__client">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 happy-client-icon">
+                    <a href=""><img src="img/google.png"  alt="google"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 happy-client-icon">
+                    <a href=""><img src="img/yahoo.png" alt="yahoo"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 happy-client-icon">
+                    <a href=""><img src="img/micro.png" alt="micro"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 happy-client-icon">
+                    <a href=""><img src="img/intel.png"  alt="intel"></a>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-6 happy-client-icon">
-                <img src="img/micro.png" alt="micro">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 happy-client-icon">
+                    <a href=""><img src="img/Qualcomm.png" alt="Qualcomm"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 happy-client-icon">
+                    <a href=""><img src="img/cisco.png" alt="cisco"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 happy-client-icon">
+                    <a href=""><img src="img/apple.png" alt="apple"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 happy-client-icon">
+                    <a href=""><img src="img/asus.png" alt="asus"></a>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-6 happy-client-icon">
-                <img src="img/yahoo.png" alt="yahoo">
-            </div>
-            <div class="col-md-3 col-sm-6 happy-client-icon">
-                <img src="img/cisco.png"  alt="">
-            </div>
+            <button type="button" class="btn switch__client-button">See all client
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </button>
         </div>
-        <div class="row">
-            <div class="col-md-3 col-sm-6 happy-client-icon">
-                <img src="img/intel.png" alt="intel">
-            </div>
-            <div class="col-md-3 col-sm-6 happy-client-icon">
-                <img src="img/cisco.png" alt="cisco">
-            </div>
-            <div class="col-md-3 col-sm-6 happy-client-icon">
-                <img src="img/apple.png" alt="apple">
-            </div>
-            <div class="col-md-3 col-sm-6 happy-client-icon">
-                <img src="img/asus.png" alt="asus">
-            </div>
-        </div>
-        <button type="button" class="btn switch__client-button">See all client</button>
     </div>
 </section>
 <!--BLOCK WITH INFORMATION ABOUT TEAM-->
@@ -260,60 +270,59 @@
         <h2 class="switch__name-green">MEET THE TEAM</h2>
         <p class="switch__content-green">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
         <div class="row">
-            <div class="col-md-2 col-sm-6 col-md-offset-1">
+            <div class="col-md-2 col-sm-4 col-xs-6 col-md-offset-1">
                 <img src="img/team1.png" class="img-circle " alt="">
                 <p class="text-center switch__team-name">Krisna Wijaya</p>
                 <ul class="list-inline team-in-network">
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo.png"></a></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo2.png"></a></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo3.png"></a></li>
                 </ul>
 
             </div>
-            <div class="col-md-2 col-sm-6">
+            <div class="col-md-2 col-sm-4 col-xs-6">
                 <img src="img/team2.png"  class="img-circle " alt="">
                 <p class="text-center switch__team-name">Gabriel Yoshua</p>
                 <ul class="list-inline team-in-network">
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo.png"></a></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo2.png"></a></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo3.png"></a></li>
                 </ul>
 
             </div>
-            <div class="col-md-2 col-sm-6">
+            <div class="col-md-2 col-sm-4 col-xs-6">
                 <img src="img/team3.png"  class="img-circle " alt="">
                 <p class="text-center switch__team-name">Adik N.K.L</p>
                 <ul class="list-inline team-in-network">
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo.png"></a></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo2.png"></a></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo3.png"></a></li>
                 </ul>
             </div>
-            <div class="col-md-2 col-sm-6">
+            <div class="col-md-2 col-sm-4 col-xs-6">
                 <img src="img/team4.png"  class="img-circle " alt="">
                 <p class="text-center switch__team-name">Zan D.J</p>
                 <ul class="list-inline team-in-network">
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo.png"></a></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo2.png"></a></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo3.png"></a></li>
                 </ul>
             </div>
-            <div class="col-md-2 col-sm-6">
+            <div class="col-md-2 col-sm-4 col-xs-6">
                 <img src="img/team5.png"  class="img-circle " alt="">
                 <p class="text-center switch__team-name">Faizal Febri</p>
                 <ul class="list-inline team-in-network">
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo.png"></a></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo2.png"></a></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo3.png"></a></li>
                 </ul>
             </div>
         </div>
-
     </div>
 </section>
 <!--MAIN BUTTON "WORK WITH US"-->
 <section class="text-center switch__work-with-us ">
-    <button type="button" class=" btn  switch__button">WORK WITH US</button>
+    <button type="button" class=" btn  switch__button switch__button-shadow">WORK WITH US</button>
 </section>
 
 <footer id="contact_page">
@@ -323,56 +332,58 @@
                 <h3 class="footer__article">ABOUT US</h3>
                 <p class="footer__content">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Ut aliquam massa nisl quis neque. Suspendisse in orci enim.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
                 <ul class="list-inline team-in-network footer__team-in-network">
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
-                    <li><img class="network-logo" src="img/media-logo.png"></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo.png"></a></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo2.png"></a></li>
+                    <li><a href=""><img class="network-logo" src="img/media-logo3.png"></a></li>
                 </ul>
             </div>
             <div class="col-sm-4">
                 <h3  class="footer__article">RECENT POSTS</h3>
-                <div class="media">
-                    <a class="media-left " href="#">
-                        <img src="img/background.png" class="img-rounded switch__recent-img" alt="">
-                    </a>
-                    <div class="media-body text-left">
-                        <p class="footer__content ">Lorem Ipsum Dolor Sit Amet.</p>
-                        <span class="label label-success">MAGAZINE</span>
+                <div class="footer__media">
+                    <div class="media">
+                        <a class="media-left " href="#">
+                            <img src="img/background.png" class="img-rounded switch__recent-img" alt="">
+                        </a>
+                        <div class="media-body text-left">
+                            <p class="footer__content ">Lorem Ipsum Dolor Sit Amet.</p>
+                            <a href="" class="label label-success">MAGAZINE</a>
+                        </div>
                     </div>
-                </div>
-                <div class="media">
-                    <a class="media-left " href="#">
-                        <img src="img/ledy-bug.png" class="img-rounded switch__recent-img" alt="">
-                    </a>
-                    <div class="media-body text-left">
-                        <p class="footer__content">Lorem Ipsum Dolor Sit Amet.</p>
-                        <span class="label label-warning">UI DESIGN</span>
+                    <div class="media">
+                        <a class="media-left " href="#">
+                            <img src="img/image1.png" class="img-rounded switch__recent-img" alt="">
+                        </a>
+                        <div class="media-body text-left">
+                            <p class="footer__content">Lorem Ipsum Dolor Sit Amet.</p>
+                            <a href="" class="label label-warning">UI DESIGN</a>
+                        </div>
                     </div>
-                </div>
-                <div class="media">
-                    <a class="media-left " href="#">
-                        <img src="img/nail.png" class="img-rounded switch__recent-img" alt="">
-                    </a>
-                    <div class="media-body text-left">
-                        <p class="footer__content">Lorem Ipsum Dolor Sit Amet.</p>
-                        <span class="label label-info">PHOTOGRAPHY</span>
+                    <div class="media">
+                        <a class="media-left " href="#">
+                            <img src="img/image2.png" class="img-rounded switch__recent-img" alt="">
+                        </a>
+                        <div class="media-body text-left">
+                            <p class="footer__content">Lorem Ipsum Dolor Sit Amet.</p>
+                            <a href="" class="label label-info">PHOTOGRAPHY</a>
+                        </div>
                     </div>
-                </div>
-                <div class="media">
-                    <a class="media-left " href="#">
-                        <img src="img/image.png" class="img-rounded switch__recent-img" alt="">
-                    </a>
-                    <div class="media-body text-left">
-                        <p class="footer__content">Lorem Ipsum Dolor Sit Amet.</p>
-                        <span class="label label-danger">BOOK</span>
+                    <div class="media">
+                        <a class="media-left " href="#">
+                            <img src="img/image3.png" class="img-rounded switch__recent-img" alt="">
+                        </a>
+                        <div class="media-body text-left">
+                            <p class="footer__content">Lorem Ipsum Dolor Sit Amet.</p>
+                            <a href="" class="label label-danger">BOOK</a>
+                        </div>
                     </div>
-                </div>
-                <div class="media">
-                    <a class="media-left " href="#">
-                        <img src="img/ledy-bug.png" class="img-rounded switch__recent-img" alt="">
-                    </a>
-                    <div class="media-body text-left">
-                        <p class="footer__content">Lorem Ipsum Dolor Sit Amet.</p>
-                        <span class="label label-warning">UI DESIGN</span>
+                    <div class="media">
+                        <a class="media-left " href="#">
+                            <img src="img/image4.png" class="img-rounded switch__recent-img" alt="">
+                        </a>
+                        <div class="media-body text-left">
+                            <p class="footer__content">Lorem Ipsum Dolor Sit Amet.</p>
+                            <a href="" class="label label-warning">UI DESIGN</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -386,15 +397,15 @@
                     Fax: +1 (0) 321 4567 890
                 </p>
                 <form class="form-horizontal">
-                    <div class="form-group">
+                    <div class="form-group form-group-input">
                         <div class="col-sm-12">
-                            <input type="text" class="form-control footer__form-data-name" id="name" placeholder="Your Name...">
+                            <input type="text" class="form-control footer__form-data-name" id="name" placeholder="Your Name..." required>
                         </div>
                         <div class="col-sm-12">
-                            <input type="email" class="form-control footer__form-data" id="email" placeholder="Your Email...">
+                            <input type="email" class="form-control footer__form-data" id="email" placeholder="Your Email..." required>
                         </div>
                         <div class="col-sm-12">
-                            <textarea class="form-control  footer__form-data" rows="5" name="text" placeholder="Your Message"></textarea>
+                            <textarea class="form-control  footer__form-data" rows="5" name="text" placeholder="Your Message" required></textarea>
                         </div>
                         <div class="col-sm-12">
                             <button type="submit" class="btn btn-footer">SEND</button>
@@ -409,16 +420,16 @@
             <h3 class="footer__article-logo">ASS SEEN ON</h3>
             <ul class="list-inline">
                 <li>
-                    <img src="img/CNN.png" class="footer_logo-img" alt="Random Name">
+                    <img src="img/CNN.png" class=" img-responsive" alt="Random Name">
                 </li>
                 <li>
-                    <img src="img/TechCrunch.png" class="footer_logo-img" alt="Random Name">
+                    <img src="img/TechCrunch.png" class="footer_logo-img img-responsive" alt="Random Name">
                 </li>
                 <li>
-                    <img src="img/BBC.png" class="footer_logo-img" alt="Random Name">
+                    <img src="img/BBC.png" class="footer_logo-img img-responsive" alt="Random Name">
                 </li>
                 <li>
-                    <img src="img/NYT.png" class="footer_logo-img" alt="Random Name">
+                    <img src="img/TNYT.png" class="img-responsive" alt="Random Name">
                 </li>
          </ul>
         </div>

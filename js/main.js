@@ -23,3 +23,27 @@ $("#menu").on("click",'a', function (event) {
     $('body,html').animate({scrollTop: top}, 1500);
 
 });
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 450) {
+        $(".navbar-fixed-top").css({
+            'background-color':'#2b9b2b',
+            'min-height':'35px',
+            'opacity': '0.7'
+        });
+    } else if($(this).scrollTop() < 450){
+        $(".navbar-fixed-top").css({
+            'background-color':'transparent',
+            'opacity':'1'
+        });
+    }
+});
+
+$(".pause-slide").click(function(){
+    $("#myCarousel2").carousel('pause');
+});
+
+
+$(document).on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+
